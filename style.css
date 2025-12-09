@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("images/Movies.jpg")
+                center/cover fixed no-repeat;
+    color: white;
+}
+
+.container {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0,0,0,0.45);
+    border-radius: 12px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin: 8px 0;
+}
+
+#search-input {
+    width: 60%;
+    display: block;
+    margin: 15px auto;
+}
+
+#movie-list {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.movie-item {
+    background: rgba(0,0,0,0.7);
+    padding: 20px;         
+    border-radius: 12px;
+}
+
+.movie-item button {
+    width: 48%;
+    margin-top: 10px;
+}
+
+.movie-item button:first-of-type {
+    background: green;
+}
+
+.movie-item button:last-of-type {
+    background: red;
+}
+

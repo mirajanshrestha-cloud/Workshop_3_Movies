@@ -23,6 +23,12 @@
       "title": "Hero",
       "genre": "Fiction",
       "year": 2014
+    },
+    {
+      "id": "acee",
+      "title": "Harry Potter and The Goblet of Fire",
+      "genre": "Fantasy",
+      "year": 2013
     }
   ]
 }
